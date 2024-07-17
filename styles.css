@@ -1,0 +1,19 @@
+#b{
+    height: 100px;
+    background-color: red;
+    padding: 20px 20px;
+}
+
+#ba{
+border: solid white 5px ;
+border-radius: 25px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#baa{
+color: white;
+font-size: 25px;
+}
