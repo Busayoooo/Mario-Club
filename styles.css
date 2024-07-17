@@ -1,19 +1,43 @@
-#b{
-    height: 100px;
+/* CSS default */
+
+*{
+    font-family: cursive;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header styles */
+
+
+header div{
+    text-align: center;
     background-color: red;
     padding: 20px 20px;
+
 }
 
-#ba{
-border: solid white 5px ;
-border-radius: 25px;
-height: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
+header div h1#mainheading{
+    color: white;
+    border:solid   white  4px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    
+}
+header div.nav-bar{
+    background-color: gray;
 }
 
-#baa{
-color: white;
-font-size: 25px;
+header div.nav-bar a.navbar-link{
+    color: white;
+    margin: 100px;
+    text-decoration: none;
+}
+
+.main-content{
+
+}
+
+.copyright{
+
 }
