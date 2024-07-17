@@ -52,6 +52,7 @@ main div.main-content p{
     padding: 0px 40px ;
     text-align: justify;
     line-height: 30px;
+    font-size: 60px;
 }
 
 footer h5.copyright{
@@ -80,5 +81,11 @@ main div.gallery_pictures div img.gallery-picture{
     width: 500px;
     height: 300px;
     margin: 10px 10px;
-    
 }
+
+main div.friend_info div.friend{
+    border-radius: 5px;
+    width: 1000px;
+    text-align: center;
+}
+
