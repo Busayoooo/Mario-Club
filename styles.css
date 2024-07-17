@@ -34,10 +34,29 @@ header div.nav-bar a.navbar-link{
     text-decoration: none;
 }
 
-.main-content{
+main img{
+    width: 100%;
+border-bottom: red solid 4px;
+}
+
+main div.main-content{
+    background-color: white;
+}
+
+main div.main-content h1{
+    color: red;
 
 }
 
-.copyright{
+main div.main-content p{
+    padding: 0px 40px ;
+    text-align: justify;
+    line-height: 30px;
+}
 
+footer h5.copyright{
+background-color: gray;
+padding: 10px 10px;
+text-align: center;
+color: white;
 }
