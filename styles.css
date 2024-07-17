@@ -55,8 +55,30 @@ main div.main-content p{
 }
 
 footer h5.copyright{
+    margin-top: 20px;
 background-color: gray;
 padding: 10px 10px;
 text-align: center;
 color: white;
+}
+
+main h1 {
+    color: red;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
+main div.gallery_pictures div{
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+main div.gallery_pictures div img.gallery-picture{
+    width: 500px;
+    height: 300px;
+    margin: 10px 10px;
+    
 }
