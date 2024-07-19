@@ -48,12 +48,14 @@ main div.main-content h1{
 
 }
 
+
 main div.main-content p{
-    padding: 0px 40px ;
+    padding: 20px 40px ;
     text-align: justify;
-    line-height: 30px;
-    font-size: 60px;
-}
+    line-height: 40px;
+    font-size: 20px;
+    
+} 
 
 footer h5.copyright{
     margin-top: 20px;
@@ -71,10 +73,9 @@ main h1 {
 
 
 main div.gallery_pictures div{
-    display: flex;
+  display: flex;
+    position: relative;
     justify-content: center;
-  
-
 }
 
 main div.gallery_pictures div img.gallery-picture{
@@ -83,9 +84,31 @@ main div.gallery_pictures div img.gallery-picture{
     margin: 10px 10px;
 }
 
+main div.gallery_pictures div div.gallery-picture-wrap{
+    position: relative;
+    display: inline-block;
+   
+   
+}
+
+main div.gallery_pictures div div.gallery-picture-wrap h1{
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    background-color: red;
+    padding: 10px 10px;
+
+    color: white;
+}
+
+
+
+
+
+
 main div.friend_info div.friend{
     border-radius: 5px;
     width: 1000px;
-    text-align: center;
+   text-align: center;
 }
 
